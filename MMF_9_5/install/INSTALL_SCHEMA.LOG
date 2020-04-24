@@ -14,20 +14,25 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_DATA.dbf' SIZE 10M
 
 Tablespace created.
 
-Elapsed: 00:00:00.09
+Elapsed: 00:00:00.12
+old   1: CREATE TABLESPACE "&&INDEX_NAME"
+new   1: CREATE TABLESPACE "MMF_9_5_IDX"
+old   3:         '&&INDEX_FILENAME' SIZE 10M AUTOEXTEND ON NEXT 100M MAXSIZE 10G
+new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_IDX.DBF' SIZE 10M AUTOEXTEND ON NEXT 100M MAXSIZE 10G
+
+Tablespace created.
+
+Elapsed: 00:00:00.08
 
 *********
 Calling create_user.sql
 *********
-Enter value for user_name: MMF_9_5
 
 Session altered.
 
 Elapsed: 00:00:00.00
-old   1: CREATE USER &&SCHEMA_NAME
+old   1: CREATE USER &&USER_NAME
 new   1: CREATE USER MMF_9_5
-old   2:   IDENTIFIED BY &&SCHEMA_PASSWORD
-new   2:   IDENTIFIED BY oracle
 old   3:   DEFAULT TABLESPACE &&DEFAULT_TBS
 new   3:   DEFAULT TABLESPACE MMF_9_5_DATA
 old   5:     QUOTA 20M on &&DEFAULT_TBS
