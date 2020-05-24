@@ -1,0 +1,459 @@
+Connecting to schema MMF_9_5
+Connected.
+Creating tables
+-------------- 
+Call to @create_history_table.sql
+old   7: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   7: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_persone_table.sql
+old   7: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   7: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_playlist_table.sql
+old   6: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   6: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_preferences_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_subscription_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_track_table.sql
+old  10: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new  10: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_type_table.sql
+old   6: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   6: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_album_table.sql
+old   9: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   9: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+Call to @create_comments_table.sql
+old   6: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   6: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+-------------- 
+Creating relational tables
+-------------- 
+Call to @create_albumToPlaylist_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_trackToPlaylist_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_trackToAlbum_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_likesToTrack_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+Call to @create_likesToAlbum_table.sql
+old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
+new   4: ) TABLESPACE MMF_9_5_DATA
+
+Table created.
+
+Elapsed: 00:00:00.00
+-------------- 
+Creating indexes
+-------------- 
+Call to @create_indexes.sql
+old   1: CREATE INDEX IX_Comments_item_id ON Comments (Item_ID) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Comments_item_id ON Comments (Item_ID) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.01
+old   1: CREATE INDEX IX_Comments_user_id ON Comments (User_ID) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Comments_user_id ON Comments (User_ID) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+old   1: CREATE INDEX IX_Track_type_id ON Track (Type_ID) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Track_type_id ON Track (Type_ID) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+old   1: CREATE INDEX IX_Track_owner_id ON Track (ID_Owner) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Track_owner_id ON Track (ID_Owner) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+old   1: CREATE INDEX IX_Album_type_id ON Album (Type_ID) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Album_type_id ON Album (Type_ID) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+old   1: CREATE INDEX IX_Album_owner_id ON Album (Id_Owner) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Album_owner_id ON Album (Id_Owner) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+old   1: CREATE INDEX IX_Playlist_persone_id ON Playlist (ID_Persone) TABLESPACE &&IDX_TABLESPACE_NAME
+new   1: CREATE INDEX IX_Playlist_persone_id ON Playlist (ID_Persone) TABLESPACE MMF_9_5_IDX
+
+Index created.
+
+Elapsed: 00:00:00.00
+-------------- 
+Creating constraints
+-------------- PROMPT Call to @create_constraints.sql
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+-------------- 

@@ -14,7 +14,7 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_DATA.dbf' SIZE 10M
 
 Tablespace created.
 
-Elapsed: 00:00:00.12
+Elapsed: 00:00:00.16
 old   1: CREATE TABLESPACE "&&INDEX_NAME"
 new   1: CREATE TABLESPACE "MMF_9_5_IDX"
 old   3:         '&&INDEX_FILENAME' SIZE 10M AUTOEXTEND ON NEXT 100M MAXSIZE 10G
@@ -22,7 +22,7 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_IDX.DBF' SIZE 10M 
 
 Tablespace created.
 
-Elapsed: 00:00:00.08
+Elapsed: 00:00:00.18
 
 *********
 Calling create_user.sql
