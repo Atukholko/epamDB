@@ -5,9 +5,9 @@ CREATE TABLE Track(
   ID NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
   Type_ID Number,
   duration Integer NOT NULL,
-  likes Integer NOT NULL,
-  reposts Integer NOT NULL,
-  count_listening Integer NOT NULL,
+  likes Integer DEFAULT 0,
+  reposts Integer DEFAULT 0,
+  count_listening Integer DEFAULT 0,
   rating Integer,
   ID_Owner Number
 ) TABLESPACE &&DATA_TABLESPACE_NAME

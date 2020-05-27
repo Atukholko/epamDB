@@ -6,7 +6,7 @@ CREATE TABLE Person(
   nickname varchar(20 ) NOT NULL,
   first_name varchar(20 ) NOT NULL,
   last_name varchar(20 ) NOT NULL,
-  email varchar(35 ) NOT NULL
+  email varchar(35 )
 ) TABLESPACE &&DATA_TABLESPACE_NAME
 /
 COMMENT ON COLUMN Person.ID IS 'unique user id'

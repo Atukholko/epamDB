@@ -35,7 +35,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -161,7 +161,7 @@ new   9: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -250,7 +250,7 @@ new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 -------------- 
 Creating indexes
 -------------- 
@@ -307,55 +307,7 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
 Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
 
 Table altered.
 
@@ -379,15 +331,15 @@ Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -396,6 +348,30 @@ Elapsed: 00:00:00.00
 Table altered.
 
 Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.02
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
 
 Table altered.
 
@@ -443,7 +419,11 @@ Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -452,6 +432,41 @@ Elapsed: 00:00:00.00
 Table altered.
 
 Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+-------------- 
+Modify
+-------------- PROMPT Call to @modify.sql
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.03
 
 Table altered.
 

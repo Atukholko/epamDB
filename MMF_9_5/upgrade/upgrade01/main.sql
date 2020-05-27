@@ -72,6 +72,11 @@ PROMPT Call to @create_constraints.sql
 @create_constraints.sql &&SCHEMA_NAME
 PROMPT ---------------
 
+PROMPT Modify
+PROMPT ---------------
+PROMPT Call to @modify.sql
+@modify.sql
+PROMPT ---------------
 
 SET SERVEROUTPUT OFF
 SPOOL OFF
