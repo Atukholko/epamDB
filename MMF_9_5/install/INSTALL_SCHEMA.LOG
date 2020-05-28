@@ -14,7 +14,7 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_DATA.dbf' SIZE 10M
 
 Tablespace created.
 
-Elapsed: 00:00:00.11
+Elapsed: 00:00:00.10
 old   1: CREATE TABLESPACE "&&INDEX_NAME"
 new   1: CREATE TABLESPACE "MMF_9_5_IDX"
 old   3:         '&&INDEX_FILENAME' SIZE 10M AUTOEXTEND ON NEXT 10M MAXSIZE 10G
@@ -22,7 +22,7 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_IDX.DBF' SIZE 10M 
 
 Tablespace created.
 
-Elapsed: 00:00:00.07
+Elapsed: 00:00:00.08
 
 *********
 Calling create_user.sql
@@ -40,7 +40,7 @@ new   5:     QUOTA 20M on MMF_9_5_DATA
 
 User created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.03
 *********
 Calling grant.sql for MMF_9_5
 *********
@@ -94,6 +94,12 @@ Grant succeeded.
 Elapsed: 00:00:00.00
 old   1: GRANT UNLIMITED TABLESPACE TO &&SCHEMA_NAME
 new   1: GRANT UNLIMITED TABLESPACE TO MMF_9_5
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+old   1: GRANT CREATE VIEW TO &&SCHEMA_NAME
+new   1: GRANT CREATE VIEW TO MMF_9_5
 
 Grant succeeded.
 

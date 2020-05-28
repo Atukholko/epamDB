@@ -8,7 +8,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -35,7 +35,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -62,7 +62,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -92,7 +92,7 @@ new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 Call to @create_track_table.sql
 old  11: ) TABLESPACE &&DATA_TABLESPACE_NAME
 new  11: ) TABLESPACE MMF_9_5_DATA
@@ -138,7 +138,7 @@ new   6: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -161,7 +161,7 @@ new   9: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.02
 
 Comment created.
 
@@ -222,21 +222,21 @@ new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 Call to @create_trackToPlaylist_table.sql
 old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
 new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 Call to @create_trackToAlbum_table.sql
 old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
 new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 Call to @create_likesToTrack_table.sql
 old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
 new   4: ) TABLESPACE MMF_9_5_DATA
@@ -296,66 +296,14 @@ new   1: CREATE INDEX IX_Playlist_persone_id ON Playlist (ID_Persone) TABLESPACE
 
 Index created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 -------------- 
 Creating constraints
 -------------- PROMPT Call to @create_constraints.sql
 
 Table altered.
 
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.03
 
 Table altered.
 
@@ -371,43 +319,7 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
 Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -415,7 +327,23 @@ Elapsed: 00:00:00.02
 
 Table altered.
 
+Elapsed: 00:00:00.00
+
+Table altered.
+
 Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
 
 Table altered.
 
@@ -431,7 +359,63 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
+Elapsed: 00:00:00.00
+
+Table altered.
+
 Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
 
 Table altered.
 
@@ -447,5 +431,28 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
+Elapsed: 00:00:00.00
+
+Table altered.
+
 Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+-------------- 
+Modify
+-------------- PROMPT Call to @modify.sql
+
+Table altered.
+
+Elapsed: 00:00:00.02
 -------------- 
