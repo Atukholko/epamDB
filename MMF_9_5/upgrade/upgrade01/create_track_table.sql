@@ -4,7 +4,8 @@ DEFINE DATA_TABLESPACE_NAME = '&&SCHEMA_NAME._DATA'
 CREATE TABLE Track(
   ID NUMBER GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
   Type_ID Number,
-  duration Integer NOT NULL,
+  name VARCHAR2(100),
+  duration VARCHAR2(20) NOT NULL,
   likes Integer DEFAULT 0,
   reposts Integer DEFAULT 0,
   count_listening Integer DEFAULT 0,

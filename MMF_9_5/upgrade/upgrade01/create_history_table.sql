@@ -6,7 +6,7 @@ CREATE TABLE History(
   ID_Track Number NOT NULL,
   ID_Person Number NOT NULL,
   Listen_date Timestamp(6) NOT NULL,
-  Paused_time Integer
+  Paused_time VARCHAR2(20)
 ) TABLESPACE &&DATA_TABLESPACE_NAME
 /
 COMMENT ON COLUMN History.ID IS 'unique id of history record'

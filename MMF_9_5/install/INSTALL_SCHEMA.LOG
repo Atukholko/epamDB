@@ -14,11 +14,11 @@ new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_DATA.dbf' SIZE 10M
 
 Tablespace created.
 
-Elapsed: 00:00:00.13
+Elapsed: 00:00:00.11
 old   1: CREATE TABLESPACE "&&INDEX_NAME"
 new   1: CREATE TABLESPACE "MMF_9_5_IDX"
-old   3:         '&&INDEX_FILENAME' SIZE 10M AUTOEXTEND ON NEXT 100M MAXSIZE 10G
-new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_IDX.DBF' SIZE 10M AUTOEXTEND ON NEXT 100M MAXSIZE 10G
+old   3:         '&&INDEX_FILENAME' SIZE 10M AUTOEXTEND ON NEXT 10M MAXSIZE 10G
+new   3:         'C:\Users\Xiaomi\oracle\oradata\ORCL\MMF_9_5_IDX.DBF' SIZE 10M AUTOEXTEND ON NEXT 10M MAXSIZE 10G
 
 Tablespace created.
 
@@ -88,6 +88,12 @@ Grant succeeded.
 Elapsed: 00:00:00.00
 old   1: GRANT CREATE ANY DIRECTORY TO &&SCHEMA_NAME
 new   1: GRANT CREATE ANY DIRECTORY TO MMF_9_5
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+old   1: GRANT UNLIMITED TABLESPACE TO &&SCHEMA_NAME
+new   1: GRANT UNLIMITED TABLESPACE TO MMF_9_5
 
 Grant succeeded.
 
