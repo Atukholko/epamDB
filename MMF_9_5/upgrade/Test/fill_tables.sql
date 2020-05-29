@@ -1,4 +1,5 @@
 @clear_tables.sql;
+
 INSERT INTO PERSON(FIRST_NAME, LAST_NAME, NICKNAME, EMAIL) 
             SELECT DISTINCT FIRST_NAME, LAST_NAME, NICKNAME, EMAIL 
             FROM DATA_T;
@@ -44,7 +45,7 @@ INSERT INTO COMMENTS(CONTENT, ITEM_ID, USER_ID)
     FROM DATA_T d
     LEFT JOIN track t ON d.composition_name = t.name
     LEFT JOIN person p ON p.nickname = d.nickname
-    WHERE NOT d.comments_track IS NULL;
+    WHERE d.comments_track IS NOT NULL;
 
 INSERT INTO HISTORY(ID_TRACK, ID_PERSON, PAUSED_TIME)
     SELECT t.id, p.id, d.Stopped_Time st

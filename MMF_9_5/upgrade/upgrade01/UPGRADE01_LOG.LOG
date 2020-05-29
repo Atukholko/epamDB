@@ -8,7 +8,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -35,7 +35,7 @@ new   7: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -99,7 +99,7 @@ new  11: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -161,7 +161,7 @@ new   9: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -196,7 +196,7 @@ new   6: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -222,7 +222,7 @@ new   4: ) TABLESPACE MMF_9_5_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 Call to @create_trackToPlaylist_table.sql
 old   4: ) TABLESPACE &&DATA_TABLESPACE_NAME
 new   4: ) TABLESPACE MMF_9_5_DATA
@@ -290,7 +290,7 @@ new   1: CREATE INDEX IX_Album_owner_id ON Album (Id_Owner) TABLESPACE MMF_9_5_I
 
 Index created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 old   1: CREATE INDEX IX_Playlist_persone_id ON Playlist (ID_Persone) TABLESPACE &&IDX_TABLESPACE_NAME
 new   1: CREATE INDEX IX_Playlist_persone_id ON Playlist (ID_Persone) TABLESPACE MMF_9_5_IDX
 
@@ -303,34 +303,10 @@ Creating constraints
 
 Table altered.
 
-Elapsed: 00:00:00.03
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
 Elapsed: 00:00:00.02
 
 Table altered.
 
-Elapsed: 00:00:00.00
-
-Table altered.
-
 Elapsed: 00:00:00.01
 
 Table altered.
@@ -340,10 +316,6 @@ Elapsed: 00:00:00.00
 Table altered.
 
 Elapsed: 00:00:00.01
-
-Table altered.
-
-Elapsed: 00:00:00.00
 
 Table altered.
 
@@ -367,27 +339,11 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -399,15 +355,11 @@ Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -432,6 +384,54 @@ Elapsed: 00:00:00.01
 Table altered.
 
 Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -454,5 +454,5 @@ Modify
 
 Table altered.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
 -------------- 
